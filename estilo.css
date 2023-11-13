@@ -1,0 +1,45 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testeflex{
+    background-color: rgb(6, 117, 80);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: aliceblue ;
+}
+.fefe{
+    background-color: blanchedalmond;
+    padding: 50px;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.nave{
+    display: flex;
+    background-color: black;
+    height: 60px; 
+    justify-content: center;
+    align-items: center; 
+    gap: 100px  ;
+}
+.nave a{
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: 2s;
+   
+   
+}
+
+.nave a:hover {
+    background-color: aliceblue;
+    color: rgb(145, 93, 26);
+
+}

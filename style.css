@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cpagina{
+    background-color: rgba(97, 78, 78, 0.674);
+height: 80px;
+}
+footer{
+    background-color: aquamarine;
+    height: 80px;
+    text-align: center;
+    font: italic;
+    font-family: sans-serif;
+}
+.aflex-item{
+    border: 2px solid black; 
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aflex-container{
+display: flex;
+justify-content: center ;
+gap: 15px  ;
+align-items: center;
+height: 500px;
+
+}
